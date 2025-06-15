@@ -1436,6 +1436,10 @@
 
 /* Main */
 
+	.indented{
+		text-indent: 30px;
+	}
+
 	#main {
 		-moz-flex-grow: 1;
 		-webkit-flex-grow: 1;

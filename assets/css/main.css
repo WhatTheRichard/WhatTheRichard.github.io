@@ -666,6 +666,10 @@
 				padding: 1em;
 			}
 
+			.image.intro img {
+				height: 600px;
+			}
+
 		@media screen and (max-width: 700px) {
 
 			.image.main {

@@ -471,7 +471,9 @@ textarea {
 }
 
 .image.main img {
-	height: 620px;
+    max-width: 100%;
+    height: auto;
+    max-height: 620px;
 }
 
 .image.feature img {
@@ -485,13 +487,13 @@ textarea {
 
 @media screen and (max-width: 700px) {
 	.image.main {
-		margin: 2rem 0;
+		margin: 2rem auto;
 	}
 }
 
 @media screen and (max-width: 480px) {
 	.image.main {
-		margin: 1.5rem 0;
+		margin: 1.5rem auto;
 	}
 }
 

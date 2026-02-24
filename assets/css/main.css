@@ -413,7 +413,7 @@ textarea {
 
 .image:before {
 	pointer-events: none;
-	background-image: url("images/overlay.png");
+	background-image: url("/images/overlay.png");
 	background-color: rgba(19, 21, 25, 0.5);
 	border-radius: 4px;
 	content: '';
@@ -788,7 +788,7 @@ button {
 	transition: background-color 2.5s ease-in-out;
 	transition-delay: 0.75s;
 	background-color: rgba(19, 21, 25, 0.5);
-	background-image: url("images/overlay.png");
+	background-image: url("/images/overlay.png");
 	background-size: 256px 256px;
 	background-position: center;
 	background-repeat: repeat;
